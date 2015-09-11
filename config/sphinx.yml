@@ -1,0 +1,11 @@
+development:
+  address: 127.0.0.1
+  port: 9312
+  config_file: "RAILS_ROOT/config/sphinx/development.sphinx.conf"
+  searchd_log_file: "RAILS_ROOT/log/sphinx/searchd.log"
+  query_log_file: "RAILS_ROOT/log/sphinx/searchd.query.log"
+  pid_file: "RAILS_ROOT/log/sphinx/searchd.development.pid"
+test:
+  port: 9312
+production:
+  port: 9312
